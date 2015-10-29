@@ -3,14 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Graphics with OpenGL's documentation!
-================================================
+Graphics with OpenGL
+====================
+
+Please contribute to any section you feel like you can add to via a pull request at |git|.
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
 
+   topics/intro
+   topics/transforms-and-3d
+   topics/lighting
 
 
 Indices and tables
@@ -20,3 +26,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. |git| replace:: https://gitlab.com/graphics-module/graphics-with-opengl
