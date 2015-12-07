@@ -12,4 +12,4 @@ Contents:
    intro/introduction
    intro/opengl-pipeline
    intro/development-environment
-   
+   intro/drawing

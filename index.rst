@@ -17,6 +17,9 @@ Contents:
    topics/intro
    topics/transforms-and-3d
    topics/lighting
+   topics/texture-and-coloring
+   topics/complex-objects
+   topics/noise-particles-normal-mapping
 
 
 Indices and tables
