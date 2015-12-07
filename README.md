@@ -1,4 +1,4 @@
-To read online visit [opengl-notes.readthedocs.org](opengl-notes.readthedocs.org).
+To read online visit [http://opengl-notes.readthedocs.org](http://opengl-notes.readthedocs.org).
 
 To read offline:
 
