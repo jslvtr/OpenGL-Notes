@@ -29,4 +29,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. |git| replace:: https://gitlab.com/graphics-module/graphics-with-opengl
+.. |git| replace:: https://github.com/jslvtr/OpenGL-Notes
