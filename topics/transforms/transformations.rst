@@ -166,9 +166,10 @@ If we wanted to first rotate and object and then scale it, this would be the ord
 .. math::
   scale * rotate * objectmatrix
 
-So the matrices would look something like this:
+So the matrices would look something like this (scaling by 3 and rotating by 45°):
 
 .. math::
+  :nowrap:
 
   \begin{bmatrix}
 	3&0&0&0\\
@@ -178,13 +179,25 @@ So the matrices would look something like this:
 	\end{bmatrix} .
   \begin{bmatrix}
 	1&0&0&0\\
-	0&cos(\theta)&-sin(\theta)&0\\
-	0&sin(\theta)&cos(\theta)&0\\
+	0&cos(45)&-sin(45)&0\\
+	0&sin(45)&cos(45)&0\\
 	0&0&0&1
 	\end{bmatrix} .
   \begin{bmatrix}
 	1&0&0&0\\
 	0&1&0&0\\
 	0&0&1&0\\
+	0&0&0&1
+	\end{bmatrix}
+
+And this would give you the model matrix for your object:
+
+.. math::
+  :nowrap:
+
+  \begin{bmatrix}
+	3&0&0&0\\
+	0&2.12&0&0\\
+	0&0&2.12&0\\
 	0&0&0&1
 	\end{bmatrix}
