@@ -89,6 +89,6 @@ To Summarise
 
 .. image:: /img/transforms/3d-transformations-summary.png
 
-.. rubric:: footnotes
+.. rubric:: Footnotes
 
 .. [#f1] z-buffer culling is the removal of vertices that are behind other vertices, and so cannot be seen.
