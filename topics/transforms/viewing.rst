@@ -84,7 +84,7 @@ To Summarise
 3. We apply the perspective transformations;
 4. We clip the coordinates;
 5. We apply the perspective divide, which converts coordinates into ordinary 3-d coordinates in the range of ``(-1, 1)``;
-6. We calculate normalised device coordinates which converts frustum into cube and ensures z-buffer culling[#f1]_;
+6. We calculate normalised device coordinates which converts frustum into cube and ensures z-buffer culling\ [#f1]_;
 7. We apply the viewport transformation to convert view into window coordinates.
 
 .. image:: /img/transforms/3d-transformations-summary.png
