@@ -58,4 +58,4 @@ Homogeneous coordinates are just 3D vectors that instead of 3 dimensions have 4 
 
 This is used for things like translations (we will see soon), and to define whether a vector is simply a direction (``w == 0``) or a position (``w != 0``).
 
-Thus the vector ``(x, y, z, w)`` corresponds in 3D to ``(x/w, y/w, z/w)``
+Thus the vector ``(x, y, z, w)`` corresponds in 3D to ``(x/w, y/w, z/w)``.
