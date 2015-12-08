@@ -10,3 +10,4 @@ Contents:
    :numbered:
 
    lighting/lighting
+   lighting/shading

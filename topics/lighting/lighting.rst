@@ -12,6 +12,8 @@ Lighting is based on the Phong model, which states that for every object, we can
 - Diffuse reflection; and
 - Specular reflection.
 
+.. image:: /img/lighting/light-reflections.gif
+
 Ambient light
 ^^^^^^^^^^^^^
 
