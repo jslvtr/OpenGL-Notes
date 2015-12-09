@@ -47,3 +47,12 @@ Instead, the normals are interpolated between vertices, and lighting is calculat
 This means more calculations, and thus it more computationally expensive, but the results are substantially more realistic, and it is more likely to capture specular highlights.
 
 .. image:: /img/lighting/phong.png
+
+Comparison of shading and normals
+---------------------------------
+
+Please see original post `here <http://cg2010studio.com/2011/11/01/flat、gouraud、phong-shading的差別-comparison-flat-gouraud-phong-shading/>`_ (in Chinese).
+
+The image below summarises the three main shading models, and also includes bump mapping (which we will look at later on).
+
+.. image:: /img/lighting/comparison.png
