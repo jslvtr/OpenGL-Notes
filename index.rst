@@ -20,6 +20,8 @@ Contents:
    topics/texture-and-coloring
    topics/complex-objects
    topics/noise-particles-normal-mapping
+   topics/shadows
+   topics/geometry-tessellation
 
 
 Indices and tables

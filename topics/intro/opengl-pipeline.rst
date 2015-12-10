@@ -41,7 +41,7 @@ The figure below shows the different shaders and the pipeline itself in more det
 
 .. image:: /img/pipeline-detail.png
    :height: 500px
-   
+
 (see http://www.opengl.org/wiki_132/images/RenderingPipeline.png)
 
 The blue boxes are where we can write shaders and pass them to the OpenGL pipeline. The yello boxes are the ones we cannot change, but happen in the pipeline.
@@ -65,6 +65,8 @@ So this is what happens (gif)
 
 .. image:: /img/pipeline-cube.gif
 
+.. _vertex-shader:
+
 Vertex shader
 ^^^^^^^^^^^^^
 
@@ -80,7 +82,7 @@ A simple shader to execute the transforms would look like this::
 
 	attribute vec4 position;
 	uniform mat4 model, projection, view;
-	
+
 	void main()
 	{
 	    gl_Position = projection * view * model * position;
@@ -97,15 +99,21 @@ Tessellation shaders can add extra detail to patches of polygons.
 
 Geometry shaders can modify, add, or remove vertices.
 
+.. _primitive-assembly:
+
 Primitive assembly
 ^^^^^^^^^^^^^^^^^^
 
 Afterwards the pipeline assembles the shapes using primitives. For example, a rectangle may be assembled using ``GL_TRIANGLES`` as two triangles. It may be assembled using ``GL_POINTS`` as four points, one on each vertex.
 
+.. _clipping:
+
 Clipping
 ^^^^^^^^
 
 Clipping is the act of discarding vertices that are outside the viewing area, so as to decrease load trying to draw things that aren't going to be visible.
+
+.. _rasterization:
 
 Rasterization
 ^^^^^^^^^^^^^
@@ -113,6 +121,8 @@ Rasterization
 Here the pipeline samples at the pixel level, producing pixel fragments where shapes don't occupy a full pixel. For example, if the edge of a rectangle cuts through a pixel.
 
 .. image:: /img/rasterization.png
+
+.. _fragment-shader:
 
 Fragment shader
 ^^^^^^^^^^^^^^^
