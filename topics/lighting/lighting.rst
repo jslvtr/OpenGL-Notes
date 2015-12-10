@@ -73,13 +73,15 @@ The Blinn-Phong approximation is used in OpenGL as a means to simulate the equat
 
 .. image:: /img/lighting/specular-approximation.png
 
-Instead of using the angle betwee :math:`R` and :math:`V`, we calculate :math:`S` which is between :math:`L` and :math:`V`.
+Instead of using the angle between :math:`R` and :math:`V`, we calculate :math:`S` which is between :math:`L` and :math:`V`.
 Then, we use the angle between :math:`S` and :math:`N`.
 
 Emitted light
 ^^^^^^^^^^^^^
 
 An object can emmit light, and this simply means that we program it to be bright, as if it were a source of light.
+
+Remember that making an object bright does not mean it will be making other objects bright. A source of light and an object that looks lit can be different things in OpenGL.
 
 Attenuation
 ^^^^^^^^^^^

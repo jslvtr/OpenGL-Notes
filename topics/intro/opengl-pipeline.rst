@@ -1,5 +1,5 @@
-.. _opengl-pipeline:
 .. highlight:: c
+.. _opengl-pipeline:
 
 The OpenGL Pipeline
 ===================

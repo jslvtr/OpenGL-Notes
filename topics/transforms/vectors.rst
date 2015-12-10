@@ -42,12 +42,58 @@ Dot Product of Two Vectors
 
 To calculate the dot product of two vectors, watch the video `here <https://youtu.be/W_CI8KQz0fA>`_.
 
+The dot product can be calculated as:
+
+.. math::
+  :nowrap:
+
+  a.b = |a|\times|b|\times\cos(\theta)
+
+Or as this:
+
+.. math::
+  :nowrap:
+
+  a.b = a_x\timesb_x + a_y\timesb_y
+
+So therefore it can be useful, if we know the vectors, we can rearrange the equations to calculate the angle between the two vectors.
+
+.. math::
+  :nowrap:
+  cos(\theta) = {a_x\timesb_x + a_y\timesb_y}\over{|a|\times|b|}
+
+So, therefore:
+
+.. math::
+  :nowrap:
+  \theta = \arccos({a_x\timesb_x + a_y\timesb_y}\over{|a|\times|b|})
+
 A more comprehensive explanation of why that works is `here <http://www.mathsisfun.com/algebra/vectors-dot-product.html>`_.
 
 Cross Product of Two Vectors
 ----------------------------
 
 To calculate the cross product of two vectors, watch the video `here <https://youtu.be/Ix9HGSxlevk>`_.
+
+The cross product can be calculated as:
+
+.. math::
+  :nowrap:
+
+  a\timesb = |a|\times|b|\timessin(θ)\timesn
+
+Where:
+
+- :math:`|a|` is the magnitude (length) of vector :math:`a`
+- :math:`|b|` is the magnitude (length) of vector :math:`b`
+- :math:`θ` is the angle between :math:`a` and :math:`b`
+- :math:`n`is the unit vector at right angles to both :math:`a` and :math:`b`
+
+So we can re-organise that equation to calculate :math:`n`.
+
+Thus the cross product can be used along the dot product to calculate a unit vector perpendicular to a plane.
+
+What this is useful for, is to calculate normal vectors of a plane, when we only have points directly on the plane to work with. This will be extremely useful to calculate lighting later on.
 
 A more comprehensive explanation of why that works is `here <http://www.mathsisfun.com/algebra/vectors-cross-product.html>`_.
 
