@@ -83,7 +83,7 @@ Below, fog greater at short distance and increases slower and linearly:
 .. math::
   :nowrap:
 
-  f = {(end-d_z)}\over{}(end-start)}
+  f = {(end-d_z)}\over{(end-start)}
 
 Aliasing
 --------
