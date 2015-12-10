@@ -88,7 +88,7 @@ Below, fog greater at short distance and increases slower and linearly:
 Aliasing
 --------
 
-.. epigraph::
+.. pull-quote::
 
   General term for artefacts in computer graphics images, caused by problems with regular sampling of the image model.
 
