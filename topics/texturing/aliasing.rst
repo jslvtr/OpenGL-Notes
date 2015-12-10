@@ -88,7 +88,9 @@ Below, fog greater at short distance and increases slower and linearly:
 Aliasing
 --------
 
-> General term for artefacts in computer graphics images, caused by problems with regular sampling of the image model.
+.. epigraph::
+
+  General term for artefacts in computer graphics images, caused by problems with regular sampling of the image model.
 
 **Antialiasing** are measures to counteract that.
 

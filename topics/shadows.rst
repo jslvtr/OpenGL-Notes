@@ -35,7 +35,9 @@ For any visible point, a transformation maps the point to the equivalent point i
 
 However, when the original objects are rendered, the normal Z-buffer is used. The Shadow Z-buffer is only used to render the shadows.
 
-> The depth of the point is then compared to the depth stored in the appropriate pixel of the shadow Z-buffer; if the current point has greater depth, it is in shadow and should be modified accordingly, otherwise it is not in shadow.
+.. epigraph::
+
+  The depth of the point is then compared to the depth stored in the appropriate pixel of the shadow Z-buffer; if the current point has greater depth, it is in shadow and should be modified accordingly, otherwise it is not in shadow.
 
 In the algorithm, we would render the scene in two passes:
 
