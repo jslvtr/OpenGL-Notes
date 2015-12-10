@@ -54,19 +54,19 @@ Or as this:
 .. math::
   :nowrap:
 
-  a.b = a_x\timesb_x + a_y\timesb_y
+  a.b = a_x\times{b_x} + a_y\times{b_y}
 
 So therefore it can be useful, if we know the vectors, we can rearrange the equations to calculate the angle between the two vectors.
 
 .. math::
   :nowrap:
-  cos(\theta) = {a_x\timesb_x + a_y\timesb_y}\over{|a|\times|b|}
+  cos(\theta) = {a_x\times{b_x} + a_y\times{b_y}}\over{|a|\times|b|}
 
 So, therefore:
 
 .. math::
   :nowrap:
-  \theta = \arccos({a_x\timesb_x + a_y\timesb_y}\over{|a|\times|b|})
+  \theta = \arccos({a_x\times{b_x} + a_y\times{b_y}}\over{|a|\times|b|})
 
 A more comprehensive explanation of why that works is `here <http://www.mathsisfun.com/algebra/vectors-dot-product.html>`_.
 
@@ -80,7 +80,7 @@ The cross product can be calculated as:
 .. math::
   :nowrap:
 
-  a\timesb = |a|\times|b|\timessin(θ)\timesn
+  a\timesb = |a|\times{|b|}\times{\sin(θ)}\times{n}
 
 Where:
 

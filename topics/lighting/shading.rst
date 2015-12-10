@@ -37,6 +37,22 @@ Below, we can see how the specular highlight follows the vertices as opposed to 
 
 .. image:: /img/lighting/gouraud.png
 
+So, in order to implement Gouraud shading, the following steps could be followed:
+
+**In application**
+1. Define vertex normal and colours (material properties)
+2. Define light source position and colour (and optional intensity)
+3. Calculate NormalMatrix transform (or can do in vertex shader)
+
+**In vertex shader**
+1. Calculate transformed vertex position
+2. Calculate transformed normal
+3. Calculate light direction to vertex
+4. Calculate diffuse component
+5. Calculate specular component
+6. Calculate ambient component
+7. Calculate vertex colour (from lighting values and vertex material colour)
+
 Phong Shading
 -------------
 
